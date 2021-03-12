@@ -19,8 +19,8 @@ class window(qtw.QWidget):
         text=self.ui.line.text()
         if len(text):
             self.ui.line.setText(text[:-1])
-#1+2*5^ (7)
-#5*2+1
+
+            
     def power(self,data):
         data=data.split('^')
         reversed_data=data[0][::-1]
